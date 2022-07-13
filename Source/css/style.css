@@ -1,0 +1,520 @@
+body{
+    font-family: Arial, sans-serif;
+    background: url(/image/bg1.png) center/100% 100% no-repeat local ;
+}
+nav 
+{
+    width: 100%;
+    background: #344051;
+    position: fixed;
+}
+.logo
+{
+    color: white;
+    font-size: 28px;
+    line-height: 60px;
+    margin-left:65px;
+    padding-left: 388px;
+    float: left;
+    -webkit-animation: coming 2s;
+    -o-animation: coming 2s;
+    animation: coming 2s;
+}
+@keyframes coming
+{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.menu 
+{
+    float: left;
+    padding-left:432px;
+}
+.menu li
+{
+    float: left;
+    line-height: 60px;
+    color: white;
+    margin-right: 60px;
+    font-size: 16px;
+    text-transform: uppercase;
+    -webkit-animation: menus 2s;
+    -o-animation: menus 2s;
+    animation: menus 2s;
+}
+.menu li a
+{
+    transition: all 0.1s;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+}
+.menu li a:visited
+{
+    color: white;
+}
+.menu li a:hover
+{
+   color: #d17700;
+}
+.menu li a:active
+{
+    transform: scale(0.85);
+}
+@keyframes menus
+{
+    from {
+        opacity:0;
+        margin-top: -80px;
+    }
+    to { 
+        opacity: 1;
+        margin-top:0px;
+    }
+}
+.main
+{
+    margin-left: 410px;
+    height: 100%;
+    width: 100%;
+}
+.Title_container
+{
+    margin-top: 300px;
+    float: left;
+    color: #2c384a;
+    text-align:left;
+}
+.Title_container h1
+{
+    text-indent: 40px;
+    font-size: 60px;
+    font-weight: bold;
+    opacity:0;
+    -webkit-animation: titlean 0.4s forwards;
+    -o-animation: titlean 0.4s forwards;
+    animation: titlean 0.4s forwards;
+    animation-delay: 1.5s;
+}
+.Title_container h4
+{
+    font-size: 22px;
+    margin-top: 40px;
+    color: #a5aab2;
+    opacity:0;
+    -webkit-animation: titlean 0.4s forwards;
+    -o-animation: titlean 0.4s forwards;
+    animation: titlean 0.4s forwards;
+    animation-delay:1.5s;
+}
+.Title_container input
+{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius:5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 58px 14px;
+    transition: all 0.2s;
+    transform: scale(1);
+    opacity:0;
+    -webkit-animation: titlean 0.4s forwards;
+    -o-animation: titlean 0.4s forwards;
+    animation: titlean 0.4s forwards;
+    animation-delay:1.5s;
+}
+.Title_container input:hover
+{
+    background: #2c384a;
+    color: white;
+}
+.Title_container input:active
+{
+    transform: scale(0.7);
+}
+.Title_container>img
+{
+  float: right;
+  height: 500px;
+  width: 700px;  
+  margin-top: -400px;
+  margin-left:400px;
+ animation: img1 3s alternate;
+}
+@keyframes img1
+{
+    0% {
+      opacity: 0;  
+    }
+    90%{
+        opacity: 0;;
+    }
+    100%{
+        opacity: 0.7;
+    }
+}
+@keyframes titlean
+{
+    from { 
+        opacity: 0;
+        margin-left: -1000px;
+    }
+    to { 
+    opacity: 1;
+    margin-left: 15px;    
+    }
+}
+.About_Me
+{
+    width: 100%;
+    height: 100%;
+    border-top: 3px ridge #6f707e;
+}
+.second_container
+{
+    float: left;
+    margin: 11px;
+    text-align:center;
+    color: #263244;
+}
+.second_container>h2
+{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.second_container>img
+{
+    padding-top:-15px;
+    margin-top:40px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+}
+.second_container>input
+{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius:5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 5px;
+    margin: 29px;
+}
+.second_container input:hover
+{
+    color: white;
+    background-color: #2c384a;
+}
+.second_container input:active
+{
+    transform: scale(0.85);
+}
+.second_container p
+{
+    width: 52%;
+    height: 30%;
+    font-size: 18px;
+    color: #a5aab2;
+    text-align:justify;
+    margin-left: 450px;
+    padding: 15px 15px;
+}
+.WHAT_CAN_I_DO
+{
+    width: 100%;
+    height:500px;
+    font-size:15px;
+    border-top: 3px ridge #6f707e;
+    background: url(/image/bg2.png) center/100% 100%  no-repeat fixed;
+}
+.container3
+{
+    float: left;
+    margin-left: 200px;
+    text-align:left;
+    color: #263244;
+}
+.container3>h2
+{
+    padding-top:25px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 680px;
+    margin-bottom: 200px;
+}
+.Web_Design
+{
+    height: 191px;
+    width: 280px;
+    text-align: center;
+    margin: 40px;
+}
+.Web_Design>p
+{
+    margin-top:10px;
+    color: #000;
+    height: 30px;
+}
+.Web_Design>h6
+{
+    color: #cf7600;
+    margin-top: 10px;
+}
+.Development
+{
+    margin-top: -231px;
+    margin-left: 460px;
+    height: 191px;
+    width: 280px;
+    text-align: center;
+}
+.Development>h6
+{
+    margin: 10px;
+    color: #cf7600;
+}
+.CEOoptimization
+{
+    margin-top: -198px;
+    margin-left: 860px;
+    height: 191px;
+    width: 280px;
+    text-align: center;
+}
+.CEOoptimization>h6
+{
+   margin: 10px;
+    color: #cf7600; 
+}
+.marketing
+{
+    margin-top: -188px;
+    margin-left: 1260px;
+    height: 191px;
+    width: 280px;
+    text-align: center;
+}
+.marketing>h6
+{
+    margin: 10px;
+    color: #cf7600; 
+}
+.CASES
+{
+    width:100%;
+    padding-top: 110px;
+    margin-left: 0px;
+    height: 120%;
+    text-align:center;
+    border-top: 3px ridge #6f707e;
+}
+.CASES>h2
+{
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top:25px;
+}
+.abs
+{
+    margin: 80px 0px 40px 0px;
+}
+.CASES>img
+{
+    margin-left:-400px;
+}
+.CLIENT
+{
+    text-align: left;
+    margin-left: 350px;
+    margin-top:-200px;
+}
+.CLIENT>h4
+{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.WEBSITE
+{
+    text-align: left;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+.WEBSITE>h4
+{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 15px; 
+}
+.WEBSITE>input
+{
+    height:40px;
+    width: 200px;
+    text-align: center;
+    padding:5px 15px 5px 15px;
+    border: 2px solid #63b5ae;
+    margin: 20px 0px 0px 0px;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: #63b5ae;
+    color: white;
+}
+.WEBSITE input:hover
+{
+    background-color: #2c384a;
+    color: #fff;
+    border-color:#2c384a;
+}
+.WEBSITE input:active
+{
+    transform: scale(0.90);
+}
+.NAME
+{
+    text-align: left;
+    margin-left: 750px;
+    margin-top:-180px;
+}
+.NAME>h4
+{
+    font-weight:bold;
+    margin-bottom: 15px;
+    font-size: 15px; 
+}
+.COST_CALCULATION
+{
+   width: 100%;
+   height: 80%;
+  padding-top: 100px;
+   text-align: center;
+   border-top: 3px ridge #6f707e;
+}
+.COST_CALCULATION>h2
+{
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-size:20px;
+}
+.COST_CALCULATION>h3
+{
+    text-align: left;
+    font-weight: bold;
+    margin: 50px 0px 0px 0px;
+    margin-left: 500px;
+}
+.COST_CALCULATION>select
+{
+    text-align: left;
+    margin:25px 0px 0px 0px;
+    margin-left: -750px;
+}
+.COST_CALCULATION>h4
+{
+    text-align: left;
+   margin: 50px 0px 20px 500px;
+     font-weight: bold;
+}
+.SOME_STATISTICS
+{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    border-top: 3px ridge #6f707e;
+    padding-top:-300px;
+}
+.SOME_STATISTICS> h2
+{
+    padding:30px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #323e4f;
+}
+.ss101
+{
+    display:flex;
+    padding: 50px;
+    margin-left: 400px;
+    margin-right:400px;
+    color: #323e4f;
+}
+.ss101 b
+{
+   font-size: 30px;
+   padding:100px;
+}
+.ss101 img
+{
+    margin: 40px;
+}
+.REWIEWS
+{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    border-top: 3px ridge #6f707e;
+    color: #243042;
+}
+.REWIEWS> h2
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px;
+}
+.REWIEWS> p
+{
+    margin: 20px;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    margin-left: 700px;
+}
+.MY_CONTACTS
+{
+    width: 100%;
+    height: 700px;
+    border-top: 3px ridge #6f707e;
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+    background: url(/image/bg3.png) center/100% 100%  no-repeat local;
+}
+.MY_CONTACTS > h2
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.MY_CONTACTS p
+{
+    padding:40px 30px;
+    display: inline-block;
+}
+.MY_CONTACTS  > h3
+{
+    margin-bottom: 20px;
+}
+.MY_CONTACTS input:hover
+{
+   color:darkgreen;
+   background-color: burlywood;
+}
+.MY_CONTACTS input:active
+{
+    transform: scale(0.85);
+}
+.MY_CONTACTS input
+{
+    width:300px;
+    height: 30px;
+   margin:3px 10px;
+}
