@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background: url(/image/bg1.png) center/100% 100% no-repeat local ;
+    background: url(../image/bg1.png) center/100% 100% no-repeat local ;
 }
 nav 
 {
@@ -235,7 +235,7 @@ nav
     height:500px;
     font-size:15px;
     border-top: 3px ridge #6f707e;
-    background: url(/image/bg2.png) center/100% 100%  no-repeat fixed;
+    background: url(../image/bg2.png) center/100% 100%  no-repeat fixed;
 }
 .container3
 {
@@ -486,7 +486,7 @@ nav
     padding-top: 30px;
     text-align: center;
     color: #fff;
-    background: url(/image/bg3.png) center/100% 100%  no-repeat local;
+    background: url(../image/bg3.png) center/100% 100%  no-repeat local;
 }
 .MY_CONTACTS > h2
 {
