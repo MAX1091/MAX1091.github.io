@@ -1,4 +1,4 @@
 #Bocharov Max
 My first website
 дз № 3 
-лоадер под названием index1.html в прапке source
+лоадер под названием index1.html в папке source
