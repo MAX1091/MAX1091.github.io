@@ -505,7 +505,7 @@ nav
 }
 .MY_CONTACTS input:hover
 {
-   color:darkgreen;
+   color:black;
    background-color: burlywood;
 }
 .MY_CONTACTS input:active
@@ -516,5 +516,12 @@ nav
 {
     width:300px;
     height: 30px;
+   margin:3px 10px;
+    border: 2px solid yellow;
+}
+.MY_CONTACTS textarea
+{
+   display: scroll;
+   border: 2px solid yellow;
    margin:3px 10px;
 }
