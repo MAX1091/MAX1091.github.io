@@ -95,8 +95,7 @@ nav
 
 .main
 {
-    height: 100%;
-    width: 100%;
+    background: url(../image/bg1.png) center/100% 100%  no-repeat local;
 }
 
 .Title_container
